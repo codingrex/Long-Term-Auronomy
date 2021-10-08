@@ -16,11 +16,6 @@ The current sensors on our TurtleBot 2 are:
 
  <img src="./imgs/Cam.JPG" alt="cam" width="480"/>
  
-The potential research problems/difficulties for mobile robotics:<br />
-* The **glass wall** in the hallway 
-* This environment is **highly dynamic** (the location of many objects in the evironment can be changed throughout the time)
-* There are **human** involved in this environment (people walking around)
-
 ## Software Dependencies: 
 The official TurtleBot 2 packages are best compatible with **ROS Kinetic**
 The following are minimum system requirement:

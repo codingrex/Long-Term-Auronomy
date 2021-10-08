@@ -4,7 +4,7 @@ Author: Jingxi Chen (<ianchen@terpmail.umd.edu>)
 The goal of this long-term autonomy project is to explore and solve some real-world mobile robotics problems 
 (in Perception, SLAM, Planning). 
 
-***Testing Environment:*** <br />
+**Testing Environment:** <br />
 The glass hallway in the [Iribe building](https://iribe.umd.edu/#firstPage)' glass hallway at University of Maryland. <br />
 The reason we choose this real-world environment is mainly because ***This environment is not designed to be robot-friendly***
 

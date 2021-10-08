@@ -70,7 +70,7 @@ The way of running a standard Navigation task is similar to following process:
 Will get a map of the environment after this step. 
 
 2. Navigating in the environment \
-There process can be viewed as following: 1) Provide the map (from previous step). 2) Add in Localization stack. 3) Add Motion Planning stack (Local, Global Planners)
+The process can be viewed as following: 1) Provide the map (from previous step). 2) Add in Localization stack. 3) Add Motion Planning stack (Local, Global Planners)
 
 
 

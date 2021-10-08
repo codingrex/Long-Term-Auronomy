@@ -7,7 +7,8 @@ The goal of this long-term autonomy project is to explore and solve some real-wo
 **Testing Environment:** <br />
 The glass hallway in the [Iribe building](https://iribe.umd.edu/#firstPage)' glass hallway at University of Maryland. <br />
 The reason we choose this real-world environment is mainly because ***This environment is not designed to be robot-friendly***
-
+ <img src="./imgs/irb.HEIC" alt="Irb" width="480"/>
+ 
 The potential research problems/difficulties for mobile robotics:<br />
 * The **glass wall** in the hallway 
 * This environment is **highly dynamic** (the location of many objects in the evironment can be changed throughout the time)
@@ -23,5 +24,6 @@ Our major considerations are:
 * Medium size 
 
 Based on these criteria, we selected TurtleBot 2 as our base platform. 
+ <img src="./imgs/tb2.HEIC" alt="tb2" width="480"/>
 
 

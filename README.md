@@ -1,5 +1,5 @@
 # Long-term Autonomy in the Iribe Glass Hallway
-Author: Jingxi Chen ([ianchen@terpmail.umd.edu](ianchen@terpmail.umd.edu))
+Author: Jingxi Chen (<ianchen@terpmail.umd.edu>)
 
 The goal of this long-term autonomy project is to explore and solve some real-world mobile robotics problems 
 (in Perception, SLAM, Planning). 

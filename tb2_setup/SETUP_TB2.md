@@ -8,13 +8,13 @@ This document is for setting up the TurtleBot 2 based research platform.
 The current sensors on our TurtleBot 2 are: 
 * HOKUYO UST-10LX Lidar 
 
- <img src="./imgs/Lidar.jpg" alt="Lidar" width="480"/>
+ <img src="./imgs/Lidar.JPG" alt="Lidar" width="480"/>
 
 <br />
 
 * ORBBEC Astra 3D Camera (RGB image, Depth image) 
 
- <img src="./imgs/Cam.jpg" alt="cam" width="480"/>
+ <img src="./imgs/Cam.JPG" alt="cam" width="480"/>
  
 The potential research problems/difficulties for mobile robotics:<br />
 * The **glass wall** in the hallway 

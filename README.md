@@ -13,7 +13,7 @@ The potential research problems/difficulties for mobile robotics:<br />
 * This environment is **highly dynamic** (the location of many objects in the evironment can be changed throughout the time)
 * There are **human** involved in this environment (people walking around)
 
-##Step 1: Building and testing the research platform
+## Step 1: Building and testing the research platform
 The first step for this project is to select and test a reasonable research platform (mobile robot) that fits to 
 our research purpose. 
 

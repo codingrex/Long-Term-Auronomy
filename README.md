@@ -27,5 +27,7 @@ Our major considerations are:
 
 Based on these criteria, we selected TurtleBot 2 as our base platform. 
  <img src="./imgs/tb2.jpg" alt="tb2" width="480"/>
+ 
+To setup TB2, please see the documentation:  [Setup TB2](https://github.com/codingrex/Long-Term-Autonomy/blob/main/tb2_setup/SETUP_TB2.md)  
 
 

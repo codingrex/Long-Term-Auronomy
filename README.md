@@ -31,3 +31,18 @@ Based on these criteria, we selected TurtleBot 2 as our base platform.
 To setup TB2, please see the documentation:  [Setup TB2](https://github.com/codingrex/Long-Term-Autonomy/blob/main/tb2_setup/SETUP_TB2.md)  
 
 
+
+## Step 2: Testing our prototype research platform in Iribe's hallway
+* As we expect, the depth image of 3D camera cannot correctly measure the depth of glass wall (will penetrate and ignore glass wall) <br />
+<br />
+ <img src="./imgs/glass_rgb.jpg" alt="glass wall" width="480"/>
+ *When robot facing the glass wall*
+ <br />
+ <img src="./imgs/glass_depth.jpg" alt="glass wall depth" width="480"/>
+ *The depth image*
+ 
+ As we can see, in the depth image it ignores the glass wall and directly measure the depth of the chairs behind the glass wall.
+ 
+
+
+

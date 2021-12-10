@@ -17,6 +17,8 @@ The potential research problems/difficulties for mobile robotics:<br />
 * There are **human** involved in this environment (people walking around)
 
 ## Step 1: Building and testing the research platform
+
+### 1. The robot
 The first step for this project is to select and test a reasonable research platform (mobile robot) that fits to 
 our research purpose. 
 
@@ -28,7 +30,19 @@ Our major considerations are:
 Based on these criteria, we selected TurtleBot 2 as our base platform. 
  <img src="./imgs/tb2.jpg" alt="tb2" width="480"/>
  
-To setup TB2, please see the documentation:  [Setup TB2](https://github.com/codingrex/Long-Term-Autonomy/blob/main/tb2_setup/SETUP_TB2.md)  
+To setup TB2, please see the documentation:  [Setup TB2](https://github.com/codingrex/Long-Term-Autonomy/blob/main/tb2_setup/SETUP_TB2.md) 
+
+
+### 2. The ROS-based autonomy/navigation stack
+Our ROS-based Navigation stack includes following components:
+* Perception Stack
+* SLAM 
+* Motion planning Stack
+
+After fine-tuning and modifications: <br />
+These are the examples of effect of three components:
+
+
 
 
 

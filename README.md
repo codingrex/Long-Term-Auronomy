@@ -48,7 +48,8 @@ global and local costmaps (used for later global and local planning)
 <img src="./imgs/perception.png" alt="perception" width="480"/>
 
 <br />
-####  SLAM: <br />
+
+####SLAM: <br />
 Mapping of our lab + the surrounding hallway environment:
 <img src="./imgs/mapping.gif" alt="mapping" width="480"/>
 

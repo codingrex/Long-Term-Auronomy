@@ -39,8 +39,15 @@ Our ROS-based Navigation stack includes following components:
 * SLAM 
 * Motion planning Stack
 
-After fine-tuning and modifications: <br />
-These are the examples of effect of three components:
+After fine-tuning and modifications, here are the examples of effect of three
+components: <br />
+1) Perception stack: <br />
+Converting static map (after mapping) and dynamic sensor observations in to 
+global and local costmaps (used for later global and local planning)
+
+<img src="./imgs/perception.png" alt="perception" width="480"/>
+
+ 
 
 
 

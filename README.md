@@ -74,13 +74,17 @@ The problem that glasswall will impose during the autonomous navigation is that 
 plan a path that collide with the glasswall. 
 * The depth image of 3D camera cannot correctly measure and detect glasswall (will penetrate and ignore glass wall) <br />
 <br />
- <img src="./imgs/rgb_2.jpeg" alt="glass wall" width="480"/>
+
  *When robot facing the glass wall*
+ <img src="./imgs/rgb_2.jpeg" alt="glass wall" width="480"/>
+
  <br />
- <img src="./imgs/depth_2.jpeg" alt="deoth glass wall depth" width="480"/>
- *The depth image*
  
- s
+ *The depth image*
+ <img src="./imgs/depth_2.jpeg" alt="deoth glass wall depth" width="480"/>
+
+ 
+ 
  
 
 

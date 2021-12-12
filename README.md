@@ -139,7 +139,7 @@ the missing glasswall as free space and plan a path through it correspondingly. 
  
    **On the left is original depth image, on the right is the corrected one**
      
-  <img src="./imgs/semantic_depth.png" alt="seg depth" width="480" height="600"/>
+  <img src="./imgs/semantic_depth.png" alt="seg depth" width="480"/>
 
  <br />
  

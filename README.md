@@ -99,10 +99,15 @@ Lidar-based gmapping <br />
 
 * This will result in planner generate a false path that bump into the glasswall 
 
-For example, in this case, we send robot a goal pose that goes out of our lab into the hallway, the planner will view 
+For example, in this case we send robot a goal pose that goes out of our lab into the hallway, the planner will view 
 the missing glasswall as free space and plan a path through it correspondingly. (will result in robot bump into the glasswall)
 
- **The planned path and global costmap**
+ **The planned path and costmaps**
+ <img src="./imgs/out_fail.png" alt="fail case" width="480"/>
+ <br />
+ <img src="./imgs/out_fail.gif" alt="fail run" width="480"/>
+ 
+ 
  
  
 

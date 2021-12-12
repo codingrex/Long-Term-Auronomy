@@ -158,10 +158,10 @@ the missing glasswall as free space and plan a path through it correspondingly. 
  
  
   ## Summary:
-  This ongoing research project on real robot is an example of my research interest **on the intersection of Vision and Robotics of using
+  This ongoing real-robot based research project is on the intersection of Vision and Robotics. This is an example of my research interest **of using
   semantic understanding to improve the robot autonomy**. From this experience, I learned and sharpened skills and understandings in
-  Autonomy stack (Perception, SLAM, Motion Planning) of robots, the visual learning and recognition
-  , I also gained more understandings in the challenges for real-robot based problems. 
+  **Autonomy stack** (Perception, SLAM, Motion Planning) of robots, the **visual learning and recognition**
+  , I also gained more understandings in the **challenges for real-robot based problems**. 
  
  
  

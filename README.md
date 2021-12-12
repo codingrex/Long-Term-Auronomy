@@ -138,8 +138,8 @@ the missing glasswall as free space and plan a path through it correspondingly. 
   * Using the resulting segmentation mask to correct the depth image
  
    **On the left is original depth image, on the right is the corrected one**
-     s
-  <img src="./imgs/semantic_depth.png" alt="seg depth" width="480"/>
+     
+  <img src="./imgs/semantic_depth.png" alt="seg depth" width="480" height="600"/>
 
  <br />
  

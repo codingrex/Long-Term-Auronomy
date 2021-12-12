@@ -1,8 +1,6 @@
 # Long-term Autonomy in the Iribe Glass Hallway
 Author: Jingxi Chen (<ianchen@terpmail.umd.edu>)
 
-The goal of this long-term autonomy project is to explore and solve some real-world mobile robotics problems 
-(in Perception, SLAM, Planning). 
 
 **Testing Environment:** <br />
 The glass hallway in the [Iribe building](https://iribe.umd.edu/#firstPage)' glass hallway at University of Maryland. <br />
@@ -62,7 +60,8 @@ Particle-filter based localization during autonomous run:
  #### Motion Planning  <br />
  Motion Planning stack involves two-level of planning: global planning (plan a path from a to b on global scale) and 
  local planning (path following and collision avoidance)
- 
+ <img src="./imgs/mp1.gif" alt="mp1" width="480"/>
+ <img src="./imgs/mp2.gif" alt="mp2" width="480"/>
 
  
 

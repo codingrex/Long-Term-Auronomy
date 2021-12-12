@@ -103,6 +103,8 @@ For example, in this case we send robot a goal pose that goes out of our lab int
 the missing glasswall as free space and plan a path through it correspondingly. (will result in robot bump into the glasswall)
 
  **The planned path and costmaps**
+ 
+  <br />
  <img src="./imgs/out_fail.png" alt="fail case" width="480"/>
  <br />
  <img src="./imgs/out_fail.gif" alt="fail run" width="480"/>

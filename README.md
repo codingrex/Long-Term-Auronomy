@@ -69,16 +69,18 @@ Particle-filter based localization during autonomous run:
 
 
 
-## Step 2: Testing our prototype research platform in Iribe's hallway
-* As we expect, the depth image of 3D camera cannot correctly measure the depth of glass wall (will penetrate and ignore glass wall) <br />
+## Step 2: Resolving the glassway problems for navigation 
+The problem that glasswall will impose during the autonomous navigation is that robot cannot detect it using the Lidar or Depth camera and thus will 
+plan a path that collide with the glasswall. 
+* The depth image of 3D camera cannot correctly measure and detect glasswall (will penetrate and ignore glass wall) <br />
 <br />
- <img src="./imgs/glass_rgb.jpg" alt="glass wall" width="480"/>
+ <img src="./imgs/rgb_2.jpeg" alt="glass wall" width="480"/>
  *When robot facing the glass wall*
  <br />
- <img src="./imgs/glass_depth.jpg" alt="glass wall depth" width="480"/>
+ <img src="./imgs/depth_2.jpeg" alt="deoth glass wall depth" width="480"/>
  *The depth image*
  
- As we can see, in the depth image it ignores the glass wall and directly measure the depth of the chairs behind the glass wall.
+ s
  
 
 

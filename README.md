@@ -144,6 +144,16 @@ the missing glasswall as free space and plan a path through it correspondingly. 
  <br />
  
  
+ * Using this idea we can correctly perceive and represent glasswall thus improve the autonomous navigation of the robot
+ 
+ **The new planned path and costmaps**
+     
+  <img src="./imgs/out.png" alt="out" width="480"/>
+
+ <br />
+ 
+ 
+ 
 
 
 

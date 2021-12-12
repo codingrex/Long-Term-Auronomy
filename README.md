@@ -144,13 +144,24 @@ the missing glasswall as free space and plan a path through it correspondingly. 
  <br />
  
  
- * Using this idea we can correctly perceive and represent glasswall thus improve the autonomous navigation of the robot
+ * Using this idea we can correctly perceive and represent glasswall 
+ thus improve the autonomous navigation of the robot (robot can plan a collision-free path
+ out of room that take into account of glasswall)
  
  **The new planned path and costmaps**
      
   <img src="./imgs/out.png" alt="out" width="480"/>
 
  <br />
+ 
+ <img src="./imgs/out1.gif" alt="out run" width="480"/>
+ 
+ 
+  ## Summary:
+  This ongoing research project on real robot is an example of my research interest **on the intersection of Vision and Robotics of using
+  semantic understanding to improve the robot autonomy**. From this experience, I learned and sharpened skills and understandings in
+  Autonomy stack (Perception, SLAM, Motion Planning) of robots, the visual learning and recognition
+  , I also gained more understandings in the challenges for real-robot based problems. 
  
  
  

@@ -16,7 +16,7 @@ The potential research problems/difficulties for mobile robotics:<br />
 * This environment is **highly dynamic** (the location of many objects in the evironment can be changed throughout the time)
 * There are **human** involved in this environment (people walking around)
 
-## Step 1: Building and testing the research platform
+## Part 1: Building and testing the research platform
 
 ### 1. The robot
 The first step for this project is to select and test a reasonable research platform (mobile robot) that fits to 
@@ -69,13 +69,13 @@ Particle-filter based localization during autonomous run:
 
 
 
-## Step 2: Resolving the glassway problems for navigation 
+## Part 2: The problem of glasswall in navigation 
 The problem that glasswall will impose during the autonomous navigation is that robot cannot detect it using the Lidar or Depth camera and thus will 
 plan a path that collide with the glasswall. 
 * The depth image of 3D camera cannot correctly measure and detect glasswall (will penetrate and ignore glass wall) <br />
 <br />
 
- **When robot facing the glass wall**
+ **RGB image when robot facing the glass wall**
  
  <img src="./imgs/rgb_2.jpeg" alt="glass wall" width="480"/>
 
@@ -93,6 +93,18 @@ Lidar-based gmapping <br />
 **After mapping, the glassway in red circle is missing in static map generated**
 
 <img src="./imgs/map.jpg" alt="static map" width="480"/>
+<br />
+<br />
+
+
+* This will result in planner generate a false path that bump into the glasswall 
+
+For example, in this case, we send robot a goal pose that goes out of our lab into the hallway, the planner will view 
+the missing glasswall as free space and plan a path through it correspondingly. (will result in robot bump into the glasswall)
+
+ **The planned path and global costmap**
+ 
+ 
 
 
 

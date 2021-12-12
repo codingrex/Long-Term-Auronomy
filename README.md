@@ -110,6 +110,20 @@ the missing glasswall as free space and plan a path through it correspondingly. 
  <img src="./imgs/out_fail.gif" alt="fail run" width="480"/>
  
  
+ ## Part 3: Unifying the geometry and semantics of glasswall
+ 
+ The robot plans path based on the costmaps which are from the sensor measurements (Lidar scan, Depth images). In this way, 
+ we essentially use ray-tracing for endpoints in order to perceive and represent the world. This way of using only geometry to
+ represent the world makes it difficult to deal with the glasswall (invisible to ray-tracing).
+ 
+ To address this, we are going to incorporate the semantic understanding of environment (from RGB images) into the geometric
+ measurement for detecting and representing the glasswall such that we can improve our autonomous navigation.
+ 
+  
+ 
+     
+ 
+ 
  
  
 

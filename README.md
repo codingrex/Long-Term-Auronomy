@@ -126,7 +126,7 @@ the missing glasswall as free space and plan a path through it correspondingly. 
 
  <br />
  
- * We train a semantic segmentation network which using the surrounding context to generate segmentation mask for glasswall 
+ * Training a semantic segmentation network which using the surrounding context to generate segmentation mask for glasswall 
  
    **The glasswall segmentation mask from our trained model**
      
@@ -134,6 +134,14 @@ the missing glasswall as free space and plan a path through it correspondingly. 
 
  <br />
  
+ 
+  * Using the resulting segmentation mask to correct the depth image
+ 
+   **On the left is original depth image, on the right is the corrected one**
+     s
+  <img src="./imgs/semantic_depth.png" alt="seg depth" width="480"/>
+
+ <br />
  
  
 

@@ -120,9 +120,19 @@ the missing glasswall as free space and plan a path through it correspondingly. 
  measurement for detecting and representing the glasswall such that we can improve our autonomous navigation.
  
   
- 
+  **RGB image when robot facing the glass wall**
      
+  <img src="./imgs/rgb_2.jpeg" alt="glass wall" width="480"/>
+
+ <br />
  
+ * We train a semantic segmentation network which using the surrounding context to generate segmentation mask for glasswall 
+ 
+   **The glasswall segmentation mask from our trained model**
+     
+  <img src="./imgs/seg_mask.png" alt="seg masks" width="480"/>
+
+ <br />
  
  
  

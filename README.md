@@ -82,6 +82,7 @@ plan a path that collide with the glasswall.
  <br />
  
  **The depth image**
+ 
  <img src="./imgs/depth_2.jpeg" alt="deoth glass wall depth" width="480"/>
 
  

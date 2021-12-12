@@ -9,7 +9,9 @@ The glass hallway in the [Iribe building](https://iribe.umd.edu/#firstPage)' gla
 The reason we choose this real-world environment is mainly because ***This environment is not designed to be robot-friendly*** 
 <br />
 
- <img src="./imgs/irb.jpg" alt="Irb" width="480"/>
+ <img src="./imgs/hallway1.png" alt="Irb1" width="480"/>
+ 
+ <img src="./imgs/hallway2.png" alt="Irb2" width="480"/>
  
 The potential research problems/difficulties for mobile robotics:<br />
 * The **glass wall** in the hallway 
@@ -35,13 +37,13 @@ To setup TB2, please see the documentation:  [Setup TB2](https://github.com/codi
 
 ### 2. The ROS-based autonomy/navigation stack
 Our ROS-based Navigation stack includes following components:
-* Perception Stack
+* Perception
 * SLAM 
-* Motion planning Stack
+* Motion planning
 
 After fine-tuning and modifications, here are the examples of effect of three
 components: <br />
-####  Perception stack: <br />
+####  Perception: <br />
 Converting static map (after mapping) and dynamic sensor observations in to 
 global and local costmaps (used for later global and local planning)
 
@@ -56,6 +58,11 @@ Mapping of our lab + the surrounding hallway environment:
 
 Particle-filter based localization during autonomous run:
  <img src="./imgs/localization.gif" alt="localization" width="480"/>
+ 
+ #### Motion Planning  <br />
+ Motion Planning stack involves two-level of planning: global planning (plan a path from a to b on global scale) and 
+ local planning (path following and collision avoidance)
+ 
 
  
 

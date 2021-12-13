@@ -10,8 +10,11 @@ colliding with glasswall.
 
 For example, in this case we send robot a goal pose that goes out of our lab into the hallway, the planner will view 
 the missing glasswall as free space and plan a path through it correspondingly. (will result in robot bump into the glasswall)
-  <img src="./imgs/map.jpg" alt="static map" width="480"/>
-<br />
+
+<p float="left">
+  <img src="./imgs/map.jpg" width="300" />
+  <img src="./imgs/out_fail.png" width="300" />
+</p>
   <br />
  <img src="./imgs/out_fail.png" alt="fail case" width="480"/>
  <br />

@@ -2,19 +2,22 @@
 Author: Jingxi Chen (<ianchen@terpmail.umd.edu>)
 
 
-**Testing Environment:** <br />
-The glass hallway in the [Iribe building](https://iribe.umd.edu/#firstPage)' glass hallway at University of Maryland. <br />
-The reason we choose this real-world environment is mainly because ***This environment is not designed to be robot-friendly*** 
-<br />
+**Motivation:** <br />
+Nowadays, mobile robots are generally equipped with Lidar and 3D Cameras for perceiving and representing the environment.
+However, these ray-tracing sensors would fail to detect the transparent objects, such like glasswall in the building. 
+This limitation will impede robots in their navigation capacity, such as going in and out of a glasswall-enclosed room without
+colliding with glasswall. 
 
- <img src="./imgs/hallway1.png" alt="Irb1" width="480"/>
- 
- <img src="./imgs/hallway2.png" alt="Irb2" width="480"/>
- 
-The potential research problems/difficulties for mobile robotics:<br />
-* The **glass wall** in the hallway 
-* This environment is **highly dynamic** (the location of many objects in the evironment can be changed throughout the time)
-* There are **human** involved in this environment (people walking around)
+For example, in this case we send robot a goal pose that goes out of our lab into the hallway, the planner will view 
+the missing glasswall as free space and plan a path through it correspondingly. (will result in robot bump into the glasswall)
+  <br />
+ <img src="./imgs/out_fail.png" alt="fail case" width="480"/>
+ <br />
+ <img src="./imgs/out_fail.gif" alt="fail run" width="480"/>
+
+ In this project, we are trying to enable robot to perceive and represent glasswall using visual recognition for improving
+ the robot navigation in glasswall environment. 
+
 
 ## Part 1: Building and testing the research platform
 
